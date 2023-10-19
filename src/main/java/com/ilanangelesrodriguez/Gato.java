@@ -1,16 +1,16 @@
 package com.ilanangelesrodriguez;
 
 public class Gato {
-    int id;
+    String id;
     String url;
     String apikey = "live_12uBcrcKucmZQIPAZyBWWlMpacyah9xoh4vN32Sp6zZCyrhFDfUHWjtxtH5Uuarw";
     String image;
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
