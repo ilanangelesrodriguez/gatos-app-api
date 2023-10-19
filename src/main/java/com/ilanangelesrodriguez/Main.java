@@ -22,6 +22,7 @@ public class Main {
 
         switch (menu_option){
             case 0:
+                GatoService.verGato();
                 break;
             default:
                 break;
